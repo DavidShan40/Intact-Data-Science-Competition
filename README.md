@@ -1,5 +1,6 @@
 # CXC Datathon - Intact Data Science Challenge
-### Description: https://devpost.com/software/m3-biubiubiu
+
+Description: https://devpost.com/software/m3-biubiubiu
 
 ## Background
 
