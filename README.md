@@ -24,8 +24,26 @@
     *   Split train/test sets for model comparison
     *   Normal Classification Models (Xgboost, SVM, Rigid Classifier)
     *   Pre-trained Model - BERT
-    
-# Files
+
+## Solution
+
+In this competition, our team successfully developed a document classification system that can automatically categorize medical transcriptions into their respective medical specialties. By implementing a range of machine learning models and leveraging state-of-the-art pre-trained models like BERT, we achieved a significant improvement in classification accuracy compared to the baseline.
+
+### Model Performance
+* Baseline Accuracy: 0.206
+* Best Model Test Accuracy: 0.354
+* Best Model macro-averaged F1-score: 0.110
+
+The BERT model outperformed traditional classification models like Xgboost, SVM, and Rigid Classifier, with an accuracy of 0.354 on the test set. This result represents a considerable improvement over the baseline accuracy of 0.2.
+
+### Key Takeaways
+* The BERT model's superior performance highlights the importance of leveraging advanced pre-trained models in text classification tasks. By utilizing the knowledge gained from pre-training on a massive corpus of text, BERT is better equipped to understand and classify the medical transcriptions in our dataset.
+
+* Our team's data exploration and preprocessing efforts played a crucial role in improving model performance. By thoroughly understanding the dataset and applying appropriate preprocessing techniques, we were able to feed cleaner and more meaningful input data into our models, ultimately leading to better classification results.
+
+* The use of macro-averaged F1-score as the evaluation metric ensured that our models were evaluated fairly, taking into account the varying number of samples per class. This metric is particularly relevant in real-world applications, where imbalanced class distributions are common.
+
+## Files
 
 *   Code_final_submission.ipynb: Final submitted code for evaluation
 *   BERT_2.ipynb: Pruning parameters such as epoch for BERT model
